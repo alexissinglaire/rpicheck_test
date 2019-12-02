@@ -1,0 +1,209 @@
+<html>
+  <head>
+    <style type='text/css'>
+      a            { color:#a0a0e0 }
+      div.title    { 
+          color:#C0F0C0; 
+          font-size:1.2em; 
+          font-weight:bold; 
+          margin-top:1em; 
+          margin-bottom:0.5em; 
+          text-align:center }
+      div.subtitle { 
+          color:#C0F0C0; 
+          font-size:0.8em; 
+          margin-bottom:1em; 
+          text-align:center }
+      div.freetext { color:#F0F0F0 }
+      div.list     { color:#C0C0F0 }
+    </style>
+  </head>
+  <body>
+$ 1.8.12
+  % Version 1.8.12
+  _ 2018-10-03
+  * Added polish translation (by TomoS)
+$ 1.8.9
+  % Version 1.8.9
+  _ 2018-01-27
+  * Fixed crash on Android 5.0
+$ 1.8.8
+  % Version 1.8.8
+  _ 2018-01-18
+  * Fixed widget not updating on Android Oreo
+  * Fixed crash related to log configuration
+$ 1.8.7
+  % Version 1.8.7
+  _ 2018-01-14
+  * Fixed that opening the log file could lead to app crashing
+  * Widget is not vertically resizable
+$ 1.8.6
+  % Version 1.8.6
+  _ 2018-01-09
+  * Fixed publickey authentification not working with PKCS#8 Keyfiles
+  * Use '/proc/net/wireless' as fallback for WiFi signal quality when 'iwconfig' is not available
+$ 1.8.5
+  % Version 1.8.5
+  _ 2018-01-07
+  * Fixed wireless interfaces signal quality missing
+  * Updated chinese translation (thanks LJason77 for the PR)
+$ 1.8.4
+  % Version 1.8.4
+  _ 2018-01-05
+  * Fixed widget font color
+$ 1.8.3
+  % Version 1.8.3
+  _ 2018-01-04
+  * Fixed WiFi signal quality/link level sometimes incorrect (thanks Kabuse, #155)
+  * Added support for systemd v197 style network interface names (thanks x2k13, #150)
+  * Added support for ED25519 SSH keys (you have to place private AND public key on your phone to make this work)
+  * Fixed unability to select hidden files as SSH keys (thanks ogarcia, #139)
+  * Added support for stronger encryption (like ED25519)
+  * Updated to latest version of SSHJ library
+  * Various translation updates
+$ 1.8.2
+  % Version 1.8.2
+  _ 2017-08-28
+  * Show system time under SYSTEM (must be enabled in settings)
+  * Fixed translations with UTF-8 characters (thanks LJason77 for the PR)
+  * Attempt to make reboot/halt more robust
+$ 1.8.1
+  % Version 1.8.1
+  _ 2017-08-26
+  * Timeout of custom commands is now customizable to support long running commands
+  * Limit length of disk filesystem to 20 characters
+$ 1.8.0
+  % Version 1.8.0
+  _ 2016-02-03
+  * Added Support for Marshmallow Runtime Permissions and removed unused Phone permission
+  * Tapping widget now opens the app
+  * Fixed widget not updating after deep sleep (thanks zoskar)
+  * Firmware version hash gets cut to 8 characters (thanks indywidualny)
+  * Overclocking information should now work on Arch Linux (thanks indywidualny)
+  * Log location changed to /sdcard/Android/data/de.eidottermihi.raspicheck/files
+  * Switched to a new file chooser (for private key file)
+$ 1.7.7
+  % Version 1.7.7
+  _ 2016-01-21
+  * Widget now displays the temperature according to your temperature scale setting (°C or °F)
+  * Memory information now uses /proc/meminfo (thanks indywidualny for your PR)
+$ 1.7.6
+  % Version 1.7.6
+  _ 2015-11-07
+  * Fixed widget not working on Android versions < 5.X
+$ 1.7.5
+  % Version 1.7.5
+  _ 2015-11-05
+  * Free memory does no longer contain buffer/cache memory (thanks to ijaron)
+$ 1.7.4
+  % Version 1.7.4
+  _ 2015-09-27
+  * Fixed app sometimes not working on Android 2.3.3
+  * Fixed memory information not available when Pi locale is not English
+  * Added slovakian translation
+$ 1.7.3
+  % Version 1.7.3
+  _ 2015-09-12
+  * Fixed Widget not refreshing after reboot (thanks to zoszkar)
+$ 1.7.2
+  % Version 1.7.2
+  _ 2015-08-31
+  * Added share functionality
+  * Minor cosmetic improvements
+  * Minor bugfixes
+  * Moved logfile location to follow Androids directory layout
+$ 1.7.1
+  % Version 1.7.1
+  _ 2015-04-01
+  * New special placeholders for custom commands
+  * Reworked About section in Settings
+$ 1.7.0
+  % Version 1.7.0
+  _ 2015-03-24
+    * moved to Material Design (by Lars Grefer)
+    * added Homescreen Overclocking Widget
+    * Fix: Two Launcher icons
+$ 1.6.5
+  % Version 1.6.5
+  _ 2015-02-28
+    * Query ip address via "ifconfig" if "ip" is not avalaible (as in OSMC)
+    * Load average is now calculated correctly on Raspberry Pi 2
+$ 1.6.4
+  % Version 1.6.4
+  _ 2015-02-08
+    * Fix crash when "cat /proc/loadavg" contains copyright headers (as in Raspbmc).
+$ 1.6.3
+  % Version 1.6.3
+  _ 2015-02-07
+    * Average Load now shows values of "/proc/loadavg"
+$ 1.6.2
+  % Version 1.6.2
+  _ 2015-01-25
+    * bugfix: fix crash on screen orientation change
+$ 1.6.1
+  % Version 1.6.1
+  _ 2014-11-12
+    * bugfix: make it possible to edit/delete commands again
+$ 1.6.0
+  % Version 1.6.0
+  _ 2014-11-11
+    * added placeholder for custom commands
+    * bugfix: show disks with whitespace in mount point correctly
+    * internal: access database in background thread (thanks to yulin2)
+$ 1.5.2
+  % Version 1.5.2
+  _ 2014-08-27
+    * fixed keyphrase not specified bug for custom commands
+$ 1.5.1
+  % Version 1.5.1
+  _ 2014-04-23
+    * fixed too low timeout for slow connections
+    * refresh action item is back
+$ 1.5.0
+  % Version 1.5.0
+  _ 2014-04-22
+    * Custom commands
+    * Solid Actionbar and custom theme (thanks to larsgrefer)
+    * fixed crash when app is going to background during refresh
+    * fixed refresh freeze
+$ 1.4.2
+  % Version 1.4.2
+  _ 2014-03-30
+    * Reboot/Halt now working on OpenELEC (thanks to Mafarricos)
+$ 1.4.1
+  % Version 1.4.1
+  _ 2013-10-16
+    * fixed various crashes
+$ 1.4.0
+  % Version 1.4.0
+  _ 2013-10-13
+    * added authentification with keys (PKCS8/OpenSSH file format)
+    * removed background of app icon
+$ 1.3.1
+  % Version 1.3.1
+  _ 2013-05-31
+    * query data will now be saved during app runtime
+    * fixed bug in parsing the IP address
+$ 1.3.0
+  % Version 1.3.0
+  _ 2013-05-26
+    * added safe shutdown (halt)
+    * reworked overclocking queries
+    * reworked network information
+    * added Wifi-signal query
+    * added firmware version
+    * added logging to sd-card
+    * allowing empty sudo password
+    * reworked settings
+    * thanks go to Matthias, Joost, Jamie and grafenhofer for their help and support
+$ 1.2.2
+  % Version 1.2.2
+  _ 2013-03-23
+    * added full path for vcgencmd queries
+$ 1.0
+  % Version 1.0
+  _ 2013-02-13
+    * initial release
+$ END_OF_CHANGE_LOG
+  </body>
+</html>

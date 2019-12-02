@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.madgag.spongycastle:bcpg-jdk15on:1.56.0.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/modules-2/files-2.1/com.madgag.spongycastle/bcpg-jdk15on/1.56.0.0/418b5c38d2b313cc4ea5df2395e2aeff00fb5081/bcpg-jdk15on-1.56.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/modules-2/files-2.1/com.madgag.spongycastle/bcpg-jdk15on/1.56.0.0/64448f8f8bdd9d25b80b6b6020d307428ebd8608/bcpg-jdk15on-1.56.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.freefair.android-injection:injection:1.0.0-rc3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/transforms-1/files-1.1/injection-1.0.0-rc3.aar/00e90415e7baf60ba8f919c84e0077d7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/transforms-1/files-1.1/injection-1.0.0-rc3.aar/00e90415e7baf60ba8f919c84e0077d7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/modules-2/files-2.1/io.freefair.android-injection/injection/1.0.0-rc3/5a72e4aec473c5b9ae562457b427fdf3e080c7ce/injection-1.0.0-rc3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

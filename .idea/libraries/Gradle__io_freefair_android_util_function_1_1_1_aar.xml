@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.freefair.android-util:function:1.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/transforms-1/files-1.1/function-1.1.1.aar/c8da71bd2e83bd17b753dd0bd1f66c8f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/transforms-1/files-1.1/function-1.1.1.aar/c8da71bd2e83bd17b753dd0bd1f66c8f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/modules-2/files-2.1/io.freefair.android-util/function/1.1.1/81795d12eea7cabc4753fdfca32b4b75ecfdbd06/function-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

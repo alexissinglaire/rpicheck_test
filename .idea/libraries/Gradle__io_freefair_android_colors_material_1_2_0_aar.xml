@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.freefair.android-colors:material:1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/transforms-1/files-1.1/material-1.2.0.aar/f28e49dc66dc54240ee469408292a3bf/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/transforms-1/files-1.1/material-1.2.0.aar/f28e49dc66dc54240ee469408292a3bf/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-all/caches/modules-2/files-2.1/io.freefair.android-colors/material/1.2.0/4d27c1dea4c8b3e82402d2cf9fa24a604714441f/material-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

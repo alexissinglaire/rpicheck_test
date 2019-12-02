@@ -1,0 +1,80 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+# Dont obfuscate
+-dontobfuscate
+
+-dontwarn com.google.errorprone.annotations.**
+# Libraries
+# SSHJ
+-keep class net.schmizz.** { *; }
+-keep interface net.schmizz.** { *; }
+-keep class com.jcraft.** { *; }
+-keep interface com.jcraft.** { *; }
+-keep class com.hierynomus.sshj.** { *; }
+-keep interface com.hierynomus.sshj.** { *; }
+-keep class djb.** { *; }
+-keep interface djb.** { *; }
+-keep class net.i2p.** { *; }
+-keep interface net.i2p.** { *; }
+-keep class org.spongycastle.** { *; }
+-keep interface org.spongycastle.** { *; }
+-keep class org.bouncycastle.** { *; }
+-keep interface org.bouncycastle.** { *; }
+-dontwarn org.ietf.**
+# were not using ldap
+-dontwarn org.spongycastle.jce.provider.X509LDAPCertStoreSpi
+-dontwarn org.spongycastle.x509.util.LDAPStoreHelper
+# no GssApi Auth
+-dontwarn javax.security.auth.**
+# no JNDI
+-dontwarn javax.naming.**
+# PrettyTime
+-keep class org.ocpsoft.prettytime.** { *; }
+-keep interface org.ocpsoft.prettytime.** { *; }
+# Logback
+-keep class ch.qos.logback.** { *; }
+-keep interface ch.qos.logback.** { *; }
+-dontwarn java.nio.file.**
+# we're not using remote logging
+-dontwarn ch.qos.logback.core.net.**
+# slf4j
+-keep class org.slf4j.** { *; }
+-keep interface org.slf4j.** { *; }
+# no MDC loggin
+-dontwarn org.slf4j.MDC
+-dontwarn org.slf4j.MarkerFactory
+# guava
+-dontwarn com.google.j2objc.annotations.**
+-dontwarn com.google.appengine.**
+-dontwarn com.google.apphosting.**
+-dontwarn java.lang.ClassValue
+-dontwarn sun.misc.Unsafe
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+
+# Submodule Libraries
+-keep class de.eidottermihi.rpicheck.ssh.** { *; }
+-keep interface de.eidottermihi.rpicheck.ssh** { *; }
+
+-keepattributes Signature,*Annotation*
+-keepclassmembers class * {
+    @io.freefair.android.injection.annotation.Inject* *;
+}

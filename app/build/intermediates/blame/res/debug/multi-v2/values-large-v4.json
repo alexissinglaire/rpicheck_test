@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\android-workspace-wo-space2\\rpicheck_v1.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "map": [
+                {
+                    "source": "E:\\android-workspace-wo-space2\\rpicheck_v1.0\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "from": {
+                        "startLines": "29,28,27",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1297,1250,1205",
+                        "endColumns": "44,45,43",
+                        "endOffsets": "1337,1291,1244"
+                    },
+                    "to": {
+                        "startLines": "9,10,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "532,577,623",
+                        "endColumns": "44,45,43",
+                        "endOffsets": "572,618,662"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alexis\\.gradle\\wrapper\\dists\\gradle-2.14.1-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\45cdc5e6df2951ebe36a4a89e63e173a\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,667,771",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,766,882"
+                    }
+                }
+            ]
+        }
+    ]
+}
